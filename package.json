@@ -32,6 +32,7 @@
   },
   "scripts": {
     "start": "webpack-dev-server --host 0.0.0.0 --config webpack.dev.js",
-    "build": "webpack --config webpack.prod.js"
+    "build": "webpack --config webpack.prod.js",
+    "deploy": "vercel --prod"
   }
 }
